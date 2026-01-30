@@ -48,6 +48,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         one_time_keyboard=True,
     )
     await update.message.reply_text(
+        "Это бот для получения кода ночного доступа к прачечной самообслуживания «Точка стирки».\n"
         "Пожалуйста, отправьте свой контакт кнопкой ниже.",
         reply_markup=keyboard,
     )
